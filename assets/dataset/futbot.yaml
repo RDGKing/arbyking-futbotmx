@@ -1,0 +1,11 @@
+# Dataset FutBotMX — YOLO fine-tune (export Roboflow YOLOv8)
+# Rutas relativas a esta carpeta (assets/dataset/)
+
+path: C:/Users/RodrigoBarrios/Desktop/arbyking-futbotmx/arbyking-futbotmx/assets/dataset
+train: train/images
+val: valid/images
+
+nc: 2
+names:
+  0: Robot
+  1: Pelota

@@ -1,0 +1,10 @@
+# modelos demasiado pesados para GitHub
+assets/models/sam3.pt
+
+# videos fuente que exceden el límite de 100 MB de GitHub
+assets/videos/IMG_9822.MOV
+assets/videos/IMG_9863.MOV
+
+# python
+__pycache__/
+.ipynb_checkpoints/

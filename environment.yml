@@ -1,6 +1,35 @@
+# Entorno conda para correr local (alternativa a pip install -r requirements.txt)
+#
+#   conda env create -f environment.yml
+#   conda activate futbot
+#
+# Google Colab — NO uses este archivo; basta con:
+#   pip install ultralytics supervision opencv-python-headless matplotlib numpy
+
 name: futbot
 channels:
+  - conda-forge
+  - pytorch
   - defaults
 dependencies:
   - python=3.11
-prefix: C:\Users\arbyk\anaconda3\envs\futbot
+  - pip
+  # PyTorch (conda suele ser más estable que pip en Windows/Linux local)
+  - pytorch>=2.0
+  - torchvision>=0.15
+  - pip:
+      # imports directos del notebook
+      - ultralytics>=8.4.0
+      - supervision>=0.28.0
+      - matplotlib>=3.8.0
+      - numpy>=1.24.0
+      - opencv-python>=4.8.0
+      # dependencias de ultralytics / entrenamiento YOLO (futbot.yaml)
+      - pillow>=10.0.0
+      - pyyaml>=6.0
+      - scipy>=1.10.0
+      - pandas>=2.0.0
+      - tqdm>=4.65.0
+      # opcional: correr el .ipynb localmente
+      # - jupyter>=1.0.0
+      # - ipykernel>=6.0.0

@@ -4,9 +4,17 @@
 **Reto:** Visión por computadora con SAM 3  
 **Equipo:** ArbyKing  
 **Repositorio:** [github.com/RDGKing/arbyking-futbotmx](https://github.com/RDGKing/arbyking-futbotmx)  
-**Notebook:** [notebooks/arby_futbot_mx.ipynb](notebooks/arby_futbot_mx.ipynb)
+**Notebook:** [notebooks/arby_futbot_mx.ipynb](notebooks/arby_futbot_mx.ipynb)  
+**Reel:** **[Ver en Instagram — ArbyKing · Copa FutBotMX](https://www.instagram.com/reel/DZwKpByM5vW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)**
 
 Pipeline de visión por computadora para analizar partidos de fútbol robótico: detección de robots y pelota, tracking multi-objeto, segmentación con SAM 3, video comparativo y mapa de calor de actividad.
+
+## Reel de Instagram
+
+| | |
+|---|---|
+| **Enlace** | **[instagram.com/reel/DZwKpByM5vW](https://www.instagram.com/reel/DZwKpByM5vW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)** |
+| **Resumen** | YOLO · ByteTrack · SAM 3 · heatmap del partido |
 
 ---
 
@@ -122,12 +130,6 @@ Descárgalos del Drive y colócalos en `assets/videos/` para reproducir el noteb
 | Detección YOLO custom | [deteccion_frame_00000.jpg](assets/outputs/deteccion_frame_00000.jpg) |
 | Tracking ByteTrack | [tracking_frame_00059.jpg](assets/outputs/tracking_frame_00059.jpg) |
 | Segmentación SAM 3 | [sam_frame_00000.jpg](assets/outputs/sam_frame_00000.jpg) |
-
----
-
-## Reel de Instagram
-
-[instagram.com/reel/DZwKpByM5vW](https://www.instagram.com/reel/DZwKpByM5vW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 
 ---
 
